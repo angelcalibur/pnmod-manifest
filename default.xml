@@ -69,16 +69,17 @@
   <project path="system/bt" name="purenexus_system_bt" remote="pure" revision="mm2oms" groups="pdk" />
 
   <!-- Device Source -->
-  <project path="device/huawei/angler" name="purenexus_device_huawei_angler" groups="device,angler,broadcom_pdk" remote="pure" revision="mm2oms" />
-  <project path="device/lge/hammerhead" name="purenexus_device_lge_hammerhead" groups="device,hammerhead,broadcom_pdk,generic_fs" remote="pure" revision="mm2oms" />
+ <project path="device/samsung/jflte" name="AOSP-JF-MM/platform_device_samsung_jflte" remote="github" revision="aosp-6.0" />
+  <project path="device/samsung/qcom-common" name="AOSP-JF-MM/android_device_samsung_qcom-common" remote="github" revision="aosp-6.0" />
 
   <!-- Kernel Source -->
-  <project path="kernel/huawei/angler" name="purenexus_kernel_huawei_angler" groups="device,angler,broadcom_pdk" remote="pure" revision="mm2oms" />
-  <project path="kernel/lge/hammerhead" name="purenexus_kernel_lge_hammerhead" groups="device,hammerhead,broadcom_pdk,generic_fs" remote="pure" revision="mm2oms" />
+  <project path="kernel/samsung/alucard24" name="B--B/Alucard-Kernel-jfltexx" remote="github" revision="aosp-6.0" />
+  <project path="kernel/samsung/Ramdisk" name="B--B/Ramdisk" remote="github" revision="aosp-6.0" />
+  <project path="kernel/samsung/jf" name="AOSP-JF-MM/android_kernel_samsung_jf" remote="github" revision="aosp-6.0-test" />
 
   <!-- Proprietary Vendors -->
-  <project path="vendor/huawei" name="purenexus_proprietary_vendor_huawei" remote="pure" revision="mm2oms" />
-  <project path="vendor/lge" name="purenexus_proprietary_vendor_lge" remote="pure" revision="mm2oms" />
+  <project path="vendor/aosp" name="AOSP-JF-MM/platform_vendor_aosp" remote="github" revision="aosp-6.0-test-caf" />
+  <project path="vendor/samsung" name="AOSP-JF-MM/proprietary_vendor_samsung" remote="github" revision="aosp-6.0-test-new-ril" />
 
   <!-- AOSP Repo's -->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
