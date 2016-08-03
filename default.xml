@@ -43,6 +43,7 @@
   <project path="hardware/marvell/wlan" name="purenexus_hardware_marvell_wlan" remote="pure" revision="mm2oms" />
   <!-- project path="packages/apps/Bluetooth" name="purenexus_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="pure" revision="mm2oms" />-->
   <project path="packages/apps/Bluetooth" name="AOSP-JF-MM/platform_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="github" revision="aosp-6.0" />
+  <project path="packages/apps/BluetoothExt" name="CyanogenMod/android_packages_apps_BluetoothExt" remote="github" revision="cm-13.0" />
   <project path="packages/apps/CellBroadcastReceiver" name="purenexus_packages_apps_CellBroadcastReceiver" remote="pure" revision="mm2oms" />
   <project path="packages/apps/Contacts" name="purenexus_packages_apps_Contacts" groups="pdk-fs" remote="pure" revision="mm2oms" />
   <project path="packages/apps/ContactsCommon" name="purenexus_packages_apps_ContactsCommon" groups="pdk-fs" remote="pure" revision="mm2oms" />
